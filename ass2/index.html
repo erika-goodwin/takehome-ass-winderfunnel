@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2</title>
+
+    <style>
+      .\? {
+        box-shadow: inset 4px 4px rgb(236, 15, 170),
+          inset -4px -4px rgb(236, 15, 170);
+      }
+
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+          Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+        height: 100%;
+        width: 100%;
+      }
+      body {
+        width: 80%;
+        margin: auto;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
+      header h1{
+          margin-top: 2rem;
+      }
+
+      .section-team {
+        width: 100%;
+        text-align: center;
+
+      }
+      .section-team h2 {
+        margin-top: 2rem;
+      }
+      .section-team-con {
+        width: 100%;
+        margin-top: 2rem;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .section-team-con-flex {
+        width: 30%;
+        padding: 1rem;
+      }
+
+      .felx-content h3 {
+        margin-bottom: 1rem;
+      }
+
+      .team-icon {
+        width: 5rem;
+      }
+      /* tablet */
+      @media (max-width: 768px) {
+        body {
+          background-color: rgb(122, 206, 212);
+        }
+        .section-team h2 {
+          margin-top: 1rem;
+        }
+        .section-team-con {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          margin-top: 1rem;
+        }
+        .section-team-con-flex {
+          width: 100%;
+          padding: 1rem;
+
+          display: flex;
+        }
+      }
+
+      /* Smartphone */
+      @media (max-width: 500px) {
+        body {
+          background-color: rgb(228, 176, 176);
+          width: 95%;
+        }
+        .section-team-con-flex {
+          width: 100%;
+          padding: 1rem;
+
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body class="">
+    <header>
+      <h1>Out Leadership Team</h1>
+    </header>
+    <section class="section-team">
+      <h2>Value Propositions</h2>
+      <div class="section-team-con">
+        <div class="section-team-con-flex">
+          <img
+            src="./icons/payment-method.png"
+            alt="payment-icon"
+            class="team-icon"
+          />
+          <div class="felx-content">
+            <h3>Header 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Exercitationem molestias vel beatae consectetur
+            </p>
+          </div>
+        </div>
+        <div class="section-team-con-flex">
+          <img
+            src="./icons/delivery-truck.png"
+            alt="payment-icon"
+            class="team-icon"
+          />
+          <div class="felx-content">
+            <h3>Header 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Exercitationem molestias vel beatae consectetur
+            </p>
+          </div>
+        </div>
+        <div class="section-team-con-flex">
+          <img
+            src="./icons/smartphone.png"
+            alt="payment-icon"
+            class="team-icon"
+          />
+          <div class="felx-content">
+            <h3>Header 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Exercitationem molestias vel beatae consectetur
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="section-tab">
+      <div class="tab">
+        <button
+          id="defaultOpen"
+          class="tablinks"
+          onclick="changeTabs(event, 'tab1')"
+        >
+          Tab1
+        </button>
+        <button class="tablinks" onclick="changeTabs(event, 'tab2')">
+          Tab2
+        </button>
+      </div>
+
+      <div class="tab-content">
+        <div class="tab-content-con">
+          <div id="tab1" class="tab-content-con-box box-1">
+            <div class="box-left">
+              <div class="header-div">
+                <ion-icon name="hammer-outline"></ion-icon>
+                <h2>Header</h2>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+                labore harum minima sit. Doloribus, quos. Fugit voluptatum
+                quaerat numquam, quos non officia animi, reprehenderit maxime
+                saepe eum voluptates illum inventore!
+              </p>
+
+              <a href="#">
+                Check with us
+                <ion-icon name="arrow-forward-outline"></ion-icon
+              ></a>
+            </div>
+            <div class="box-right">
+              <img src="./imgs/placeholder-image.png" alt="image" />
+            </div>
+          </div>
+
+          <div id="tab2" class="tab-content-con-box box-2">
+            <div class="box-botton-left">
+              <ion-icon name="heart-circle-outline"></ion-icon>
+              <h2>Header</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+                labore harum minima sit. Doloribus, quos. Fugit voluptatum
+                quaerat numquam, quos non officia animi, reprehenderit maxime
+                saepe eum voluptates illum inventore!
+              </p>
+            </div>
+            <div class="box-botton">
+              <button class="btn">
+                Try for free <ion-icon name="arrow-forward-outline"></ion-icon>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
+
+
+  </body>
+</html>

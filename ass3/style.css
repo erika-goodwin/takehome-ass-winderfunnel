@@ -1,0 +1,167 @@
+.\? {
+  box-shadow: inset 4px 4px rgb(236, 15, 170), inset -4px -4px rgb(236, 15, 170);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+body {
+  width: 100%;
+  margin: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.section-tab {
+  background-color: white;
+}
+
+/* TAB */
+.tab {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.tab button {
+  width: 20%;
+  background-color: white;
+  padding: 1rem;
+  border: solid 2px #f7f7f7;
+
+}
+.tab button:hover {
+  background: #d5d5d5;
+}
+.tab button.active{
+  width: 20%;
+  background-color: #f7f7f7;
+  padding: 1rem;
+  border: solid 2px #f7f7f7;
+  border-top: solid 7px blue;
+}
+.tablinks:hover {
+  background: #d5d5d5;
+}
+
+.tablinks:first-child {
+  margin-right: 2rem;
+}
+
+/* CONTENT */
+.tab-content {
+  background-color: #f7f7f7;
+  width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.tab-content-con {
+  width: 80%;
+  margin: auto;
+}
+.box-1, .box-2 {
+  background-color: white;
+
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 5rem;
+}
+.box-left {
+  width: 60%;
+}
+
+.header-div {
+  width: 50%;
+  margin-bottom: 1.5rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  border-bottom: solid 3px #d5d5d5;
+}
+.box-left p {
+  width: 70%;
+  margin-bottom: 1.2rem;
+}
+
+.box-left a {
+  font-weight: bold;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.box-left a:hover {
+  color: #d5d5d5;
+}
+.box-left ion-icon {
+  font-size: 1.5rem;
+}
+.box-left ion-icon:hover {
+  color: #d5d5d5;
+}
+
+ion-icon {
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+.box-right {
+  width: 40%;
+}
+.box-right img {
+  width: 100%;
+}
+
+.box-2 {
+  width: 70%;
+  margin-left: 15%;
+  padding: 1.5rem 2rem;
+}
+.box-botton-left {
+  width: 75%;
+}
+.box-botton-left h2 {
+  margin-bottom: 1.5rem;
+}
+.box-botton {
+  width: 25%;
+}
+
+/* bottom */
+.btn {
+  margin-right: 0;
+
+  background-color: white;
+  border: solid 2px black;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.btn:hover {
+  background-color: #d5d5d5;
+  color: white;
+}
+.btn ion-icon {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+}
