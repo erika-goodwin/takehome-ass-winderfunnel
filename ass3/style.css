@@ -42,12 +42,11 @@ a {
   background-color: white;
   padding: 1rem;
   border: solid 2px #f7f7f7;
-
 }
 .tab button:hover {
   background: #d5d5d5;
 }
-.tab button.active{
+.tab button.active {
   width: 20%;
   background-color: #f7f7f7;
   padding: 1rem;
@@ -73,7 +72,8 @@ a {
   width: 80%;
   margin: auto;
 }
-.box-1, .box-2 {
+.box-1,
+.box-2 {
   background-color: white;
 
   display: flex;
@@ -164,4 +164,60 @@ ion-icon {
 .btn ion-icon {
   font-size: 1.5rem;
   margin-left: 0.5rem;
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  .section-tab {
+    background-color: rgb(122, 206, 212);
+  }
+  .box-1,
+  .box-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+  }
+  .box-left {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .box-left p {
+    width: 100%;
+    margin-bottom: 1.2rem;
+  }
+
+  .box-right {
+    width: 80%;
+    margin: auto;
+  }
+
+  .box-botton-left {
+    width: 100%;
+  }
+  .box-botton-left h2 {
+    margin-bottom: 1rem;
+  }
+  .box-botton-left p {
+    margin-bottom: 1rem;
+  }
+  .box-botton {
+    width: 100%;
+  }
+  .btn {
+    margin-right: 0;
+
+    border-radius: 1.5rem;
+    padding: 0.3rem 0.8rem;
+  }
+}
+
+/* Smartphone */
+@media (max-width: 500px) {
+  .section-tab {
+    background-color: rgb(228, 176, 176);
+  }
+
+  .box-right {
+    width: 100%;
+  }
 }

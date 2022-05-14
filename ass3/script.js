@@ -1,3 +1,6 @@
+
+
+console.log('action test from script file')
 // Default set
 document.getElementById("defaultOpen").click();
 
